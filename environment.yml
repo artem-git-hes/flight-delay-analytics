@@ -1,0 +1,13 @@
+name: flight-delay
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pyspark=3.3.*
+  - delta-spark
+  - kafka-python
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
